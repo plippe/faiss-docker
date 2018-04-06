@@ -1,7 +1,7 @@
 .PHONY: build release
 .DEFAULT_GOAL := build
 
-DOCKER_IMAGE := plippe/faiss
+DOCKER_IMAGE := plippe/faiss-docker
 FAISS_VERSION := 1.2.1
 
 build:
