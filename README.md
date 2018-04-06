@@ -1,8 +1,12 @@
 # Faiss Docker
 
-Dockerimage for [Faiss](https://github.com/facebookresearch/faiss).
+Dockerfile for [Faiss](https://github.com/facebookresearch/faiss).
+
 
 ## Getting started
+
+Docker images are available on [Docker Hub](https://hub.docker.com/r/plippe/faiss-docker/).
+
 ```sh
 FAISS_VERSION=...
 
