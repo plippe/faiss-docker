@@ -2,7 +2,7 @@
 .DEFAULT_GOAL := build
 
 DOCKER_IMAGE := plippe/faiss-docker
-FAISS_VERSION := 1.2.1
+FAISS_VERSION := $(shell curl -s https://api.github.com/repos/facebookresearch/faiss/releases/latest | jq -r .tag_name | cut -c2-)
 
 build:
 	docker build \
