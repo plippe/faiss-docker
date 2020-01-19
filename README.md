@@ -9,6 +9,6 @@ Docker images are available on [Docker Hub](https://hub.docker.com/r/plippe/fais
 
 ```sh
 docker build \
-    --tag plippe/faiss-docker:GIT_TAG \
-    https://github.com/facebookresearch/faiss.git#vGIT_TAG
+    --tag plippe/faiss-docker:[FAISS_RELEASE] \
+    https://github.com/facebookresearch/faiss.git#v[FAISS_RELEASE]
 ```
